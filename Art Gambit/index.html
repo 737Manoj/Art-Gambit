@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Gambit</title>
+
+
+    <!--bootstap css file-->
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <!--custom css file-->
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<header>
+  <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="./Images/logo.png" alt="Logo" width="50" height="44" class="d-inline-block">
+        Art Gambit
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Contact</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+ 
+<body>
+  <div class="jumbotron">
+    <div class="container text-center">
+      <h1>Art collection</h1>      
+      <p>A collection of different types of arts from all over the world</p>
+    </div>
+  </div>
+
+  <div id="carousel" class="carousel slide carousel-fade">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="Images/art1 (1).jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="Images/art1 (1).webp" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="Images/art.avif" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="Images/imageswqe.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="jumbotron">
+    <div class="container text-center">
+      <h1>Artists</h1>      
+      <p>Special thanks to the artists</p>
+    </div>
+  </div>
+
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <img src="./Images/artist image.jpg" class="card-img-top" alt="Artist image">
+        <div class="card-body">
+          <h5 class="card-title">Artist 1</h5>
+          <p class="card-text">Sensational art beyond imagination.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Last updated 8 days ago</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="./Images/artist image.jpg" class="card-img-top" alt="Artist image">
+        <div class="card-body">
+          <h5 class="card-title">Artist 2</h5>
+          <p class="card-text">Aspirational art with promising message conveying capabilites.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Last updated 3 months ago</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="./Images/artist image.jpg" class="card-img-top" alt="Artist image">
+        <div class="card-body">
+          <h5 class="card-title">Artist 3</h5>
+          <p class="card-text">A look into the past from eyes of an artist.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Last updated 4 days ago</small>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <!--jquery js file-->
+    <script src="./JS/jquery3.7.1.js"></script>
+
+    <!--bootstrap js file-->
+    <script src="./JS/bootstrap.min.js"></script>
+</body>
+</html>
